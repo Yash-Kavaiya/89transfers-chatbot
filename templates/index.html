@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>89transfers - Airport Transfers in Mallorca</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Dialogflow Messenger CSS -->
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>89transfers</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Seamless Airport Transfers in Mallorca</h1>
+                <p>Book your transfer without having to pay now. Pay when you arrive in Mallorca, either by cash or card.</p>
+                <div class="hero-buttons">
+                    <a href="#book-now" class="btn btn-primary">Book Now</a>
+                    <a href="#how-it-works" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Premium Transfer Services</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <h3>Palma Airport Transfers</h3>
+                    <p>We offer reliable, courteous and competitively priced airport transfers from Palma Airport in Mallorca to wherever you want to go on the island[1].</p>
+                </div>
+                <div class="service-card">
+                    <h3>Private Minibus Services</h3>
+                    <p>Our spotless mini-bus vehicles take up to 12 people at once, in comfort with all luggage included[1].</p>
+                </div>
+                <div class="service-card">
+                    <h3>24/7 Availability</h3>
+                    <p>We are a young, dynamic airport transfer company in Mallorca operating 24 hours a day, 7 days a week, 365 days a year[1].</p>
+                </div>
+                <div class="service-card">
+                    <h3>Family-Friendly Travel</h3>
+                    <p>Baby car seats and booster seats provided upon booking request at no extra charge[1].</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Book your transfer</h3>
+                    <p>Follow the steps and book your transfer from the airport to your hotel and vice versa online[1].</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>No Need to Pay in Advance</h3>
+                    <p>Make sure you have entered all the details of your transfer to proceed with the booking. You don't need to pay in advance[1].</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Wait at The Meeting Point</h3>
+                    <p>We will be waiting for you at the meeting point with a name card at the entrance of your hotel[1].</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Enjoy!</h3>
+                    <p>Enjoy the simplicity of 89transfers[1].</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <h2 class="section-title">Why Choose 89transfers?</h2>
+            <div class="benefits-container">
+                <div class="benefit-item">
+                    <h3>No Payment in Advance</h3>
+                    <p>Why pay before when it's not necessary? Our service allows you to pay when you arrive in Majorca and have met your driver[1].</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>All-Inclusive Price</h3>
+                    <p>One single, fixed price that is dynamically calculated to take into account distance and number of passengers[1].</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Premium Experience</h3>
+                    <p>Spotify Premium to enjoy throughout your journey, exclusively for you, your family and your friends[1].</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Free Extras</h3>
+                    <p>Baby and booster seats are available, free of charge. All your luggage travels for free[1].</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>If you have any questions about our services, please don't hesitate to contact us.</p>
+                    <ul class="contact-details">
+                        <li><strong>Email:</strong> info@89transfers.com</li>
+                        <li><strong>Hours:</strong> 24/7, 365 days a year</li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 89transfers. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Dialogflow Messenger Integration -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+    <df-messenger
+      project-id="gen-ai-guru-gdg-pune"
+      agent-id="8dd54af8-36a8-44a1-84ef-106aa397845d"
+      language-code="en"
+      max-query-length="-1">
+      <df-messenger-chat-bubble
+        chat-title="89transfers">
+      </df-messenger-chat-bubble>
+    </df-messenger>
+    <style>
+      df-messenger {
+        z-index: 999;
+        position: fixed;
+        --df-messenger-font-color: #000;
+        --df-messenger-font-family: Google Sans;
+        --df-messenger-chat-background: #f3f6fc;
+        --df-messenger-message-user-background: #d3e3fd;
+        --df-messenger-message-bot-background: #fff;
+        bottom: 16px;
+        right: 16px;
+      }
+    </style>
+
+    <!-- Custom JavaScript -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
